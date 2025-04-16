@@ -1,0 +1,29 @@
+body{
+    background-color: bisque;
+    font-family: "Nunito", sans-serif;    
+}
+
+
+#Pequeno, #Grande, #Medio {
+        border: 2px solid;
+        border-radius: 25px;
+        background-color: rgb(233, 200, 162);
+        display: inline-block; 
+        
+}
+
+h2, h1{
+    color: chocolate;
+    text-align: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#image{
+    width: 400px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

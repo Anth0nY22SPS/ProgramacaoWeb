@@ -1,0 +1,18 @@
+<script>
+    let nota1 = prompt("nota1");
+    let nota2 = prompt("nota2");
+    let nota3 = prompt("nota3");
+
+    let calculo = (parseInt(nota1)+parseInt(nota2)+parseInt(nota3))/3;
+    
+    if (calculo < 7) {
+        alert(`Sua media:${calculo.toFixed(0)} Vc foi Reprovado sua media foi menor que 7 `);
+    
+    } else if(calculo >= 7){
+        alert(`Sua media: ${calculo.toFixed(0)} Parabens vc foi aprovado`);
+    
+    } else {
+        alert(`Por favor digiter somente numeros`)
+    }
+
+</script>

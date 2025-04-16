@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://developer.mozilla.org/static/img/favicon32.png" />
+    <title>Mordida certa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Ola Ben vindo</h1>
+    <h2>Escolha o tamanho do lanche</h2>
+
+    <button id="Pequeno">Pequeno</button>
+    <button id="Medio">Medio</button>
+    <button id="Grande">Grande</button>
+
+    <img id="image" src="img/lanche.jpg" alt="lanche de escolha">
+
+    <script>
+        let pequeno = document.getElementById("Pequeno");
+        let medio = document.getElementById("Medio");
+        let grande = document.getElementById("Grande");
+
+        function pedidoPequeno(){
+            alert("Seu pedido Pequeno vai demora 5 minutos");
+        }
+        function pedidoMedio(){
+            alert("Seu pedido Medio vai demora 10 minutos");
+        }
+        function pedidoGrande(){
+            alert("Seu pedido Grande vai demora 15 minutos");
+        }
+
+        pequeno.addEventListener("click", pedidoPequeno)
+        medio.addEventListener("click", pedidoMedio)
+        grande.addEventListener("click", pedidoGrande)
+    </script>
+</body>
+</html>
