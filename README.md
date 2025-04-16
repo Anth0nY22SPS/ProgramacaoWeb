@@ -1,2 +1,2 @@
 # ProgramacaoWeb01
-Curso de Programação Web (html - javascript - css - github)
+Pasta de aulas e atividades do curso de programação web da IOS
